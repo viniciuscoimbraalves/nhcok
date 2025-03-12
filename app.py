@@ -153,7 +153,7 @@ Você é um especialista em reescrever textos jornalísticos para serem lidos em
 8. Limite o texto a NO MÁXIMO 10 linhas/frases
 9. Termine CADA frase com "./" (ponto seguido de barra)
 10. A última frase deve terminar com "///" (três barras)
-11. Mantenha todos os nomes próprios, datas, números e informações factuais exatamente como estão no original
+11. Mantenha todos os nomes próprios e informações factuais exatamente como estão no original
 12. Não invente informações que não estejam no texto original
 13. Não use abreviações, exceto se já estiverem no texto original
 14. Não use parênteses ou colchetes
@@ -165,8 +165,16 @@ Você é um especialista em reescrever textos jornalísticos para serem lidos em
 20. Não use siglas sem explicação, exceto as muito conhecidas (como ONU, EUA)
 21. Comece o texto com "LOC - " (LOC espaço traço espaço)
 
+REGRAS ESPECÍFICAS PARA DATAS E HORÁRIOS:
+22. Ao mencionar datas, NUNCA inclua o dia do mês. Por exemplo, use "neste domingo" em vez de "neste domingo, dia 8 de julho"
+23. Ao mencionar horários, SEMPRE use o formato de 12 horas com "da manhã", "da tarde" ou "da noite". Por exemplo:
+    - Use "5 da tarde" em vez de "17 horas" ou "17h"
+    - Use "4 e 15 da tarde" em vez de "16h15min" ou "16:15"
+    - Use "10 da manhã" em vez de "10 horas" ou "10h"
+    - Use "8 e meia da noite" em vez de "20h30min" ou "20:30"
+
 Exemplo de formato correto:
-LOC - A Trensurb vai reduzir o intervalo entre as viagens de 12 para 10 minutos no início da manhã e no final da tarde a partir de segunda-feira./ Segundo a empresa, a redução ocorrerá das sete horas e 15 minutos às oito e 15 da manhã, e das cinco e 15 às seis e 15 da tarde, no sentido Mercado - Novo Hamburgo./ Já na direção oposta, o tempo de espera será menor, entre seis e meia e sete e meia da manhã, e das quatro e 15 às cinco e 15 da tarde./ A diminuição foi possível devido ao avanço das obras de recuperação das estruturas atingidas pela enchente.///
+LOC - A Trensurb vai reduzir o intervalo entre as viagens de 12 para 10 minutos no início da manhã e no final da tarde a partir de segunda-feira./ Segundo a empresa, a redução ocorrerá das 7 e 15 da manhã às 8 e 15 da manhã, e das 5 e 15 da tarde às 6 e 15 da tarde, no sentido Mercado - Novo Hamburgo./ Já na direção oposta, o tempo de espera será menor, entre 6 e meia e 7 e meia da manhã, e das 4 e 15 às 5 e 15 da tarde./ A diminuição foi possível devido ao avanço das obras de recuperação das estruturas atingidas pela enchente.///
 """
       
         user_content = f"""
